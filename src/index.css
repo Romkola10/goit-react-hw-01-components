@@ -1,0 +1,178 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+    line-height: 1.5;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+   margin: 0;
+ }
+
+ ul,
+ ol {
+   margin: 0;
+   padding: 0;
+ }
+
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+ }
+
+.profile{
+  width: 100%;
+  height: 100%;
+  background-color: #100358;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+.fontColor{
+  color: #edf9a8;
+}
+
+.name{
+  font-size: 40px;
+  }
+
+.tag{
+font-size: 20px;
+margin-bottom: 10px;
+  }
+
+.location{
+  font-size: 20px;
+
+}
+
+.stats{
+list-style: none;
+font-size: 28px;
+}
+
+.quantity{
+  margin-left: 10px;
+}
+
+.statistics{
+  background-color:#827064;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+  color: #002766;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.stat-list{
+  display: flex;
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.item{
+  padding: 10px;
+  background-color: #edf9a8;
+  color: #002766;
+  margin-right: 15px;
+  font-weight:bold;
+}
+
+.label2{
+  margin-right:10px ;
+}
+
+.list-item{
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 25px;
+margin-right: 15px;
+}
+
+.friend-list{
+  padding: 25px;
+    display: flex;
+      flex-direction: row;
+      list-style: none;
+      background-color: #3d6a9a;
+      align-items: flex-start;
+      justify-content: center;
+}
+
+
+
+
+.friend-avatar{
+  border-radius: 50%;
+}
+
+.friend-name{
+  margin-left: 15px;
+  font-size: 40px;
+  color: #430000;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+  align-items: center;;
+}
+
+th,
+td:first-child {
+  background: #AFCDE7;
+  color: white;
+  padding: 10px 20px;
+}
+
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+td {
+  background: #D8E6F3;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
